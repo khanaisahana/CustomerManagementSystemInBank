@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>deposit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Deposit amount to your bank account</h1>
+
+      <div class="form-container">
+      <form id="form" action="CustomerDepositServlet" method="POST" >
+      
+           <label>Account Number:</label><br>
+           <input type="text" name="accountNo" required  />
+           <br>
+
+           <label>Amount to deposit:</label><br>
+           <input type="text" name="amount" required  />
+           <br>
+
+           
+
+           <input type="submit" value="Deposit" name="deposit" id="submit" ><br>
+      </form>
+      </div>
+
+</body>
+</html>

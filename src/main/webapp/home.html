@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>BankManagementSystem</title>
+<link rel="stylesheet" href="style.css">
+<style type="text/css">
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    }
+    input{
+    margin:50px;
+    }
+</style>
+</head>
+<body>
+      <h1>Bank Management System</h1>
+
+      <div class="container">
+      <form id="form" action="create.html" method="POST">
+       <input type="submit" value="create" name="create" id="submit" ><br>
+       </form>
+       <form id="form" action="deposit.html" method="POST">
+        <input type="submit" value="deposit" name="deposit" id="submit" ><br>
+        </form>
+        <form id="form" action="withdraw.html" method="POST">
+         <input type="submit" value="withdraw" name="withdraw" id="submit" ><br>
+         </form>
+         <form id="form" action="balance.html" method="POST">
+          <input type="submit" value="balance" name="balance" id="submit" ><br>
+          </form>
+          <form id="form" action="delete.html" method="POST">
+          <input type="submit" value="delete" name="delete" id="submit" ><br>
+          </form>
+          <form id="form" action="CustomerServlet">
+          <input type="submit" value="customer list" name="list" id="submit" ><br>
+          </form>
+      </div>
+</body>
+</html>

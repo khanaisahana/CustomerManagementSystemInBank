@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      
+      <h1>Customer Login</h1>
+
+      <div class="form-container">
+      <form id="form" action="CustomerLoginServlet" method="POST" >
+
+           <label>Employee ID:</label><br>
+           <input type="text" id="empID" name="ssn_id" required  />
+           <br>
+
+           <label>Password:</label><br>
+           <input type="password" id="password" name="password" maxlength="30" required onkeyup='check();'/>
+           <br>
+
+           <input type="submit" value="Login" name="submit" id="submit" ><br>
+      </form>
+      </div>
+
+
+      <script src="index.js"></script>
+</body>
+</html>

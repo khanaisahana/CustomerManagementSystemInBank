@@ -1,0 +1,33 @@
+create table CustomerRegistration(
+ssn_id VARCHAR(200) primary key,
+firstName VARCHAR(50),
+lastName VARCHAR(50),
+email VARCHAR(300),
+password VARCHAR(30),
+confirmPassword VARCHAR(30),
+address VARCHAR(100),
+contactNumber VARCHAR(10)
+)
+
+select * from CUSTOMERREGISTRATION
+
+--drop table CustomerRegistration 
+
+
+CREATE TABLE CreateCustomerAccount (
+    Customer_id VARCHAR(200) primary key,
+    name VARCHAR(50),
+    accountNo VARCHAR(10),
+    ifscCode VARCHAR(10),
+    amount integer,
+    aadhaarNo VARCHAR(20),
+    panNo VARCHAR(20),
+    doB DATE,
+    gender VARCHAR(30),
+    maritalStatus VARCHAR(50),
+    email VARCHAR(300),
+    address VARCHAR(100),
+    ContactNo VARCHAR(10)
+)
+
+select * from CreateCustomerAccount

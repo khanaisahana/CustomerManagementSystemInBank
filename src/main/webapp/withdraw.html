@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>withdraw</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Withdraw amount from your bank account</h1>
+
+      <div class="form-container">
+      <form id="form" action="CustomerWithdrawServlet" method="POST" >
+      
+           <label>Account Number:</label><br>
+           <input type="text" name="accountNo" required  />
+           <br>
+
+           <label>Amount to withdraw:</label><br>
+           <input type="text" name="amount" required  />
+           <br>
+
+           
+
+           <input type="submit" value="Withdraw" name="withdraw" id="submit" ><br>
+      </form>
+      </div>
+
+</body>
+</html>
